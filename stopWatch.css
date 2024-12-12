@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.container{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: aqua;
+    width: 370px;
+    height: 400px;
+    box-shadow: 0 2px 5px rgb(0,0,0,0.2);
+    border-radius: 6px;
+
+}
+.time{
+    display: flex;
+    font-family: sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(109, 84, 88);
+    padding-left: 10px;
+    justify-content: center;
+}
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 10px;
+}
+.st{
+    padding-left: 10px;
+    height: 50px;
+    width: 100px;
+    margin-right: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(116, 207, 207);
+    cursor: pointer;
+    box-shadow: rgb(87, 80, 80) 0 5px 5px 0;
+}
+.st:hover{
+    background-color: rgb(153, 243, 243);
+}
+.stop{
+    height: 50px;
+    width: 100px;
+    margin-right: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(163, 120, 204);
+    cursor: pointer;
+    padding-left: 10px;
+    box-shadow: rgb(87, 80, 80) 0 5px 5px 0;
+
+}
+.stop:hover{
+    background-color: rgb(194, 142, 241);
+
+}
+.reset{
+    height: 50px;
+    width: 100px;
+    margin-right: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(163, 120, 204);
+    cursor: pointer;
+    padding-left: 10px;
+    box-shadow: rgb(87, 80, 80) 0 5px 5px 0;
+}
+.reset:hover{
+    background-color: rgb(194, 142, 241);
+}
